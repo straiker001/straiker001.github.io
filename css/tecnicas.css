@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffaf0; /* Color marfil */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffe4b5; /* Color melocotón claro */
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.divider {
+    background-color: #ffdab9; /* Otro tono de melocotón */
+    padding: 0 10px;
+}
+
+nav {
+    background-color: #ffe4b5; /* Color melocotón claro */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+
+.content {
+    background-color: #ffefd5; /* Color melocotón pálido */
+    width: 80%;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+footer {
+    background-color: #ffe4b5;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
